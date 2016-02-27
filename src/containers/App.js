@@ -16,7 +16,6 @@ let App = React.createClass({
             </div>
         );
     }
-
 });
 
 module.exports = connect(state=>state)(App);
