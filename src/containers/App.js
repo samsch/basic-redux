@@ -1,6 +1,5 @@
 let React = require('react');
 let { connect } = require('react-redux');
-let PropTypes = React.PropTypes;
 let { updateName } = require('../actions/UpdateAction');
 
 let App = React.createClass({
