@@ -9,7 +9,7 @@
         "build" : "webpack -p"
     },
     "author": "Samuel Scheiderich",
-    "license": "MIT",
+    "license": "0BSD",
     "dependencies": {
         "react": "^0.14.7",
         "react-dom": "^0.14.7",
