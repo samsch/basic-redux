@@ -1,11 +1,11 @@
-let React = require('react');
-let ReactDOM = require('react-dom');
-let { createStore } = require('redux');
-let { Provider } = require('react-redux');
-let reducer = require('./RootReducer');
-let App = require('./containers/App');
+const React = require('react');
+const ReactDOM = require('react-dom');
+const { createStore } = require('redux');
+const { Provider } = require('react-redux');
+const reducer = require('./RootReducer');
+const App = require('./containers/App');
 
-let store = createStore(reducer);
+const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store} >

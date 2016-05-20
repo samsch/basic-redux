@@ -1,8 +1,8 @@
-let React = require('react');
-let { connect } = require('react-redux');
-let { updateName } = require('../actions/UpdateAction');
+const React = require('react');
+const { connect } = require('react-redux');
+const { updateName } = require('../actions/UpdateAction');
 
-let App = React.createClass({
+const App = React.createClass({
 
     render: function() {
         return (

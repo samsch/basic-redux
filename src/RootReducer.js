@@ -1,5 +1,5 @@
-let { combineReducers } = require('redux');
-let nameReducer = require('./reducers/NameReducer');
+const { combineReducers } = require('redux');
+const nameReducer = require('./reducers/NameReducer');
 
 module.exports = combineReducers({
     appName: nameReducer,
